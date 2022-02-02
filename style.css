@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* first part start */
+.first{
+    padding: 60px 120px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first .hpg{
+    float: left;
+    width: 50%;
+}
+.first .hpg h1{
+font: 80px;
+}
+.first .hpg h1 span{
+    
+    font-size: 100px;
+    color: #db5456;
+}
+.first .hpg h1{
+    font-size: 80px;
+}
+.first .hpg p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.first .right{
+    float: right;
+    width: 50%;
+}
+.first .right img{
+    border-radius: 50%;
+    width: 90%;
+}
+/* first part end */
+
+/* button start */
+.button{
+    font-size: 17px;
+    font-weight: 1200;
+    background-color:#db5456;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 13px 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+/* button end */
+
+/* breakfast part start */
+.breakfast{
+    background-color:#eee ;
+    padding: 60px 120px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+ float: left;
+ width: 30%;
+}
+.breakleft{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    padding: 40px;
+    margin: 50px 0 0 50px;
+    position: absolute;     
+}
+.breakleft h2 {
+    font-size: 32px;
+}
+.breakleft p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.breakright{
+    float: right;
+    width: 70%;
+}
+.breakright img{
+    height: 500px;
+    width: 100%;
+}
+
+/* breakfast part start */
+
+/* fastfood start */
+.fastfood{
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/fastfood.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fastfoodleft{
+    padding: 200px 120px;
+}
+.fastfoodleft p{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fastfoodleft h1{
+    font-size: 70px;   
+}
+/* fastfood end */
+
+/* delivery start */
+.delivery{
+    height: 660px;
+    width: 100%;
+    padding: 60px 120px;
+    
+}
+.deliveryleft{
+    float: left;
+    width: 50%;
+    text-align: right;   
+}
+.deliveryleft img{
+    width: 90%;
+    border-radius: 50%;
+}
+.deliverycontainer{
+    width: 45%;
+    height: 500px;
+    float: right;
+    background-color: #eeeeee; 
+}
+.deliveryright{
+    padding: 80px;
+    font-family: Arial, Helvetica, sans-serif;      
+}
+.deliveryright h2{
+    font-size: 42px;   
+}
+.deliveryright p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+/* delivery end */
+
+/* subscribe start */
+.subscribe{
+    background-color: #000;
+    color: #fff;
+    height: 660px;
+    padding: 80px 120px; 
+}
+.subscribeleft{
+    float: left;
+    width: 40%;
+}
+.subscribeleft img{
+    width: 100%;
+    height: 500px;
+}
+.subscriberight{
+    padding: 80px;
+    text-align: center;
+    width: 60%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscriberight .title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.subscriberight form input{
+    padding: 20px;
+    width: 250px;
+    background-color: #000;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: white; 
+}
+.submit {
+    border-radius: 0;
+}
+.address{
+    margin-top: 40px;
+}
+  .address h3{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.address ul li{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    list-style: none;
+}
+/* subscribe end */
